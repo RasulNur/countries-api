@@ -1,0 +1,14 @@
+.countries-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; // display: grid;
+    // grid-template-columns: repeat(4, 1fr);
+    align-items: stretch;
+    gap: 40px;
+    @media (max-width: 1205px) {
+        gap: 25px;
+    }
+    @media (max-width: 872px) {
+        justify-content: space-around;
+    }
+}
